@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import { EventSourcing } from './EventSourceing';
 import { LongPulling } from './LongPulling';
 
 
 function App() {
   return (
     <div className="App">
-      <LongPulling></LongPulling>
+      {/* <LongPulling></LongPulling> */}
+      <EventSourcing/>
     </div>
   );
 }
